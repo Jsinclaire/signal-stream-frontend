@@ -29,9 +29,10 @@ yarn-error.log*
 *.njsproj
 *.sln
 
-# local .env files
-.env.local*
+# ENV FILES
 
-# Ignore main dotenv files
 .env
-.env.*
+.env.development.local
+.env.test.local
+.env.production.local
+.env.local
